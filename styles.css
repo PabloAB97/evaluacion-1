@@ -1,0 +1,41 @@
+/* Fondo del cuerpo de la página*/
+body{
+    background: url('galaxia.jpg');
+}
+
+/* Todo lo relacionado al título visible de la página y al pie de página*/
+h1, .pie{
+    text-align: center;
+    background-color: gold;
+    margin: 0;
+    padding: 0;
+}
+
+/*Utilicé grid para ubicar la imágen en el centro, tengo un poco de experiencia en css y html*/
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+/*Este es el div de nuesta tarjeta, le asigné un color, la posicón del medio, y un border radius para redonder los bordes*/
+.tarjeta{
+    
+    text-align: center;
+    background-color: darkkhaki;
+    grid-column: 2;
+    margin-top: 70px;
+    border-radius: 30px;
+}
+/* El hover, para que cuando pase el mouse por encima haga una pequeña animación*/
+.tarjeta:hover {
+    opacity: 0.9; 
+}
+
+/* Ajustes del tamaño y margen de la imágen, además la centré*/
+.yo {
+    margin-top: 20px;
+    text-align: center;
+    height : 250px;
+    width: 250px;
+
+}
