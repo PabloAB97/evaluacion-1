@@ -1,0 +1,29 @@
+body{
+    background: url('galaxia.jpg');
+}
+h1{
+    text-align: center;
+    background-color: gold;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.tarjeta{
+    
+    text-align: center;
+    background-color: darkkhaki;
+    grid-column: 2;
+    margin-top: 70px;
+    border-radius: 30px;
+}
+
+.yo {
+    margin-top: 20px;
+    text-align: center;
+    height : 250px;
+    width: 250px;
+
+}
